@@ -1,0 +1,47 @@
+/*
+ * @author: liuhy
+ * @Date: 2021-07-22 11:34:16
+ * @LastEditTime: 2021-07-22 13:29:02
+ */
+
+export default {
+  OverPack: {
+    className: 'home-page-wrapper content11-wrapper',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'image',
+        children: 'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image',
+      },
+      {
+        name: 'title',
+        children: '丰富的特色展台',
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        children: '特色展台包括 Ant Design 、AntV、AntG、Egg 等明星产品，更有产品专家',
+        className: 'title-content',
+      },
+      {
+        name: 'content2',
+        children: '现场问诊，为你答疑解难',
+        className: 'title-content',
+      },
+    ],
+  },
+  button: {
+    className: '',
+    children: {
+      a: {
+        className: 'button',
+        href: '#',
+        children: '立即报名',
+      },
+    },
+  },
+};
